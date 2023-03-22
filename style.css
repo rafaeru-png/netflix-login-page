@@ -8,259 +8,265 @@ font-family: 'Righteous', cursive;
 
 /* ----- Reset ----- */
 * {
-      margin: 0;
-      color: white;
-      padding: 0;
-      font-size: 100%;
-      border: none;
-      outline: none;
-      font-weight: 300;
-      font-family: 'sarala' sans-serif;
-   }
-   
-   body {
-      background-image: url("/img/back.jpg");
-	    background-size: cover;
-	    background-position: center;
-   }
-   
-   a {
-      text-decoration: none;
-   }
-   
-   ul {
-      list-style: none;
-   }
-   
-   img {
-      max-width: 100%;
-   }
+  margin: 0;
+  color: white;
+  padding: 0;
+  font-size: 100%;
+  border: none;
+  outline: none;
+  font-weight: 300;
+  font-family: 'sarala' sans-serif;
+}
 
-   header {
-      background: #00000093;
-   }
+body {
+  background-image: url("/img/back.jpg");
+  background-size: cover;
+  background-position: center;
+}
 
-   main {
-      background: #00000093;
-      width: 100vw;
-      height: 100vh;
-   }
+a {
+  text-decoration: none;
+}
 
-   .logopage {
-      width: 170px;
-      padding-top: 20px;
-      padding-left: 40px;
-   }
+ul {
+  list-style: none;
+}
 
-   .login-box {
-      border-radius: 20px;
-      margin: auto;
-      width: 350px;
-      height: 520px;
-      padding: 50px;
-      background-color: #000000bb;
-      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
-      text-align: center;
-    }
+img {
+  max-width: 100%;
+}
 
-    .entrar{
-      font-family: 'Righteous', cursive;
-      padding-left: 15px;
-      float: left;
-      color: white;
-      font-size: 2em;
-      font-weight: 200;
-      padding-bottom: 30px;
-    }
+header {
+  background: #00000093;
+}
 
-    input[type="email"],
-    input[type="password"] {
-      color: black;
-      width: 90%;
-      padding: 10px;
-      margin-bottom: 1.8rem;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      box-sizing: border-box;
-      font-size: 14px;
-      transition: 0.3s ease-in-out;
-    }
+main {
+  background: #00000093;
+  width: 100vw;
+  height: 100vh;
+}
 
-    input[type="email"]:hover,
-    input[type="password"]:hover {
-      background: #ffffffd0;
-    }
+.logopage {
+  width: 170px;
+  padding-top: 20px;
+  padding-left: 40px;
+}
 
-    input[type="submit"] {
-      background-color: #c90000;
-      width: 90%;
-      color: #ffffff;
-      border: none;
-      padding: 10px;
-      border-radius: 5px;
-      font-size: 16px;
-      cursor: pointer;
-      transition: 0.3s ease-in-out;
-    }
-    input[type="submit"]:hover {
-      background-color: #680000;
-    }
+.login-box {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+  background-color: #000000bb;
+  border-radius: 20px;
+  text-align: center;
+  height: 520px;
+  padding: 50px;
+  margin: auto;
+  width: 350px;
+}
 
-    .checkbox {
-      color: #ffffff;
-      margin-left: 1rem;
-      margin-top: 1.2rem;
-      float: left;
-    }
+.entrar {
+  font-family: 'Righteous', cursive;
+  padding-left: 15px;
+  float: left;
+  color: white;
+  font-size: 2em;
+  font-weight: 200;
+  padding-bottom: 30px;
+}
 
-    .lembre {
-      color: #a7a6a6;
-      font-size: 12px;
-      margin-top: 1.2rem;
-      margin-left: 7px;
-      float: left;
-    }
+input[type="email"],
+input[type="password"] {
+  background: rgb(59, 55, 55);
+  transition: 0.3s ease-in-out;
+  border: 1px solid #cccccc00;
+  margin-bottom: 1.8rem;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 14px;
+  color: rgb(88, 88, 88);
+  padding: 10px;
+  width: 90%;
+}
 
-    input[type="checkbox"] {
-      -webkit-appearance: none;
-      -moz-appearance: none;
-      appearance: none;
-      border: 2px solid #ccc;
-      width: 15px;
-      height: 15px;
-      background: #dbdbdb; /* altere a cor de fundo para cinza */
-      outline: none;
-      cursor: pointer;
-      transition: 0.2s ease-in-out;
-    }
+input[type="email"]:hover,
+input[type="password"]:hover {
+  background: #181818e3;
+}
 
-    input[type="checkbox"]:hover {
-      background: rgb(138, 137, 137);
-    }
-    
-    input[type="checkbox"]:checked {
-      background: hsl(0, 99%, 36%); /* altere a cor de fundo para cinza escuro quando a caixa estiver marcada */
-    }
+input[type="submit"] {
+  background-color: #c90000;
+  width: 90%;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
 
-    .ajuda {
-      color: #a7a6a6;
-      font-size: 14px;
-      margin-top: 1.1rem;
-      margin-right: 15px;
-      float: right;
-      transition: 0.2s ease-in-out;
-    }
+input[type="submit"]:hover {
+  background-color: #680000;
+}
 
-    .ajuda:hover {
-      text-decoration: underline;
-      color: #5a5a5a;
-    }
+.checkbox {
+  color: #ffffff;
+  margin-left: 1rem;
+  margin-top: 1.2rem;
+  float: left;
+}
 
-    .novoaqui {
-      font-size: 17px;
-      color: #a7a6a6;
-      padding-top: 50px;
-      padding-left: 20px;
-      float: left;
-    }
+.lembre {
+  color: #a7a6a6;
+  font-size: 12px;
+  margin-top: 1.2rem;
+  margin-left: 7px;
+  float: left;
+}
 
-    .assine {
-      color: white;
-      transition: 0.2s ease-in-out;
-    }
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 2px solid #ccc;
+  width: 15px;
+  height: 15px;
+  background: #dbdbdb;
+  /* altere a cor de fundo para cinza */
+  outline: none;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
 
-    .assine:hover {
-      color: #c90000;
-      text-decoration: underline;
-    }
+input[type="checkbox"]:hover {
+  background: rgb(138, 137, 137);
+}
 
-    #protegido {
-      color: #868686;
-      font-size: 14px;
-      padding-top: 85px;
-    }
+input[type="checkbox"]:checked {
+  background: hsl(0, 99%, 36%);
+  /* altere a cor de fundo para cinza escuro quando a caixa estiver marcada */
+}
 
-    #saiba {
-      color: rgb(0, 102, 255);
-      cursor: pointer;
-      font-size: 14px;
-      transition: 0.2s ease-in-out;
-    }
+.ajuda {
+  color: #a7a6a6;
+  font-size: 14px;
+  margin-top: 1.1rem;
+  margin-right: 15px;
+  float: right;
+  transition: 0.2s ease-in-out;
+}
 
-    #saiba:hover {
-      text-decoration: underline;
-      color: #0b3677;
-    }
+.ajuda:hover {
+  text-decoration: underline;
+  color: #5a5a5a;
+}
 
-    .rodape {
-      padding-top: 50px;
-      width: 100vw;
-      height: 130px;
-      padding: 25px;
-      background-color: #000000d7;
-    }
+.novoaqui {
+  font-size: 17px;
+  color: #a7a6a6;
+  padding-top: 50px;
+  padding-left: 20px;
+  float: left;
+}
 
-    .duvidas {
-      color: #919191;
-      font-size: 17px;
-      padding-bottom: 30px;
-    }
+.assine {
+  color: white;
+  transition: 0.2s ease-in-out;
+}
 
-   .ligue {
-      font-size: 17px;
-      color: #919191;
-      transition: 0.2s ease-in-out;
-   }
+.assine:hover {
+  color: #c90000;
+  text-decoration: underline;
+}
 
-   .ligue:hover {
-      text-decoration: underline;
-      color: #5a5a5a;
-   }
+#protegido {
+  color: #868686;
+  font-size: 14px;
+  padding-top: 85px;
+}
 
-   .list-rodape1,.list-rodape2,.list-rodape3,.list-rodape4 {
-      font-size: 20px;
-      color: #a5a4a4;
-      padding-right: 50px;
-      padding-bottom: 20px;
-      transition: 0.2s ease-in-out;
-   }
+#saiba {
+  color: rgb(0, 102, 255);
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.2s ease-in-out;
+}
 
-   .list-rodape5 {
-      font-size: 20px;
-      color: #a5a4a4;
-      padding-right: 30px;
-      padding-bottom: 20px;
-      transition: 0.2s ease-in-out;
-   }
+#saiba:hover {
+  text-decoration: underline;
+  color: #0b3677;
+}
 
-   .list-rodape6 {
-      font-size: 20px;
-      color: #a5a4a4;
-      padding-right: 20px;
-      padding-bottom: 20px;
-      transition: 0.2s ease-in-out;
-   }
+.rodape {
+  padding-top: 50px;
+  width: 100vw;
+  height: 130px;
+  padding: 25px;
+  background-color: #000000d7;
+}
 
-   .list-rodape1:hover,.list-rodape2:hover,
-   .list-rodape3:hover,.list-rodape4:hover,
-   .list-rodape5:hover,.list-rodape6:hover {
+.duvidas {
+  color: #919191;
+  font-size: 17px;
+  padding-bottom: 30px;
+}
 
-      color: #5a5a5a;
-      cursor: pointer;
-   }
+.ligue {
+  font-size: 17px;
+  color: #919191;
+  transition: 0.2s ease-in-out;
+}
 
-   @media screen and (max-width: 1024px) and (max-height: 916px) {
-    body, header, main {
-      background: #000000;
-    }
+.ligue:hover {
+  text-decoration: underline;
+  color: #5a5a5a;
+}
 
-    .login-box {
-      width: 70vw;
-    }
+.list-rodape1,
+.list-rodape2,
+.list-rodape3,
+.list-rodape4 {
+  font-size: 20px;
+  color: #a5a4a4;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  transition: 0.2s ease-in-out;
+}
 
-    input[type="email"],
-    input[type="password"],
-    input[type="submit"] {
+.list-rodape5 {
+  font-size: 20px;
+  color: #a5a4a4;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  transition: 0.2s ease-in-out;
+}
 
-    }
-   }
+.list-rodape6 {
+  font-size: 20px;
+  color: #a5a4a4;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  transition: 0.2s ease-in-out;
+}
+
+.list-rodape1:hover,
+.list-rodape2:hover,
+.list-rodape3:hover,
+.list-rodape4:hover,
+.list-rodape5:hover,
+.list-rodape6:hover {
+
+  color: #5a5a5a;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) and (max-height: 916px) {
+
+  body,
+  header,
+  main {
+    background: #000000;
+  }
+
+  .login-box {
+    width: 70vw;
+  }
