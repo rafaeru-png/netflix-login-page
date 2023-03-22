@@ -8,32 +8,32 @@ font-family: 'Righteous', cursive;
 
 /* ----- Reset ----- */
 * {
-   margin: 0;
-   color: white;
-   padding: 0;
-   font-size: 100%;
-   border: none;
-   outline: none;
-   font-weight: 300;
-   font-family: 'sarala' sans-serif;
+      margin: 0;
+      color: white;
+      padding: 0;
+      font-size: 100%;
+      border: none;
+      outline: none;
+      font-weight: 300;
+      font-family: 'sarala' sans-serif;
    }
    
    body {
-   background-image: url("/img/back.jpg");
-	background-size: cover;
-	background-position: center;
+      background-image: url("/img/back.jpg");
+	    background-size: cover;
+	    background-position: center;
    }
    
    a {
-   text-decoration: none;
+      text-decoration: none;
    }
    
    ul {
-   list-style: none;
+      list-style: none;
    }
    
    img {
-   max-width: 100%;
+      max-width: 100%;
    }
 
    header {
@@ -249,8 +249,18 @@ font-family: 'Righteous', cursive;
       cursor: pointer;
    }
 
+   @media screen and (max-width: 1024px) and (max-height: 916px) {
+    body, header, main {
+      background: #000000;
+    }
 
+    .login-box {
+      width: 70vw;
+    }
 
-   
+    input[type="email"],
+    input[type="password"],
+    input[type="submit"] {
 
-    
+    }
+   }
